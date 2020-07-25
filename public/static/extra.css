@@ -1,0 +1,6 @@
+.tilt:hover {
+  transform: rotate(10deg);
+}
+.tilt {
+  transition: width 2s, height 2s, transform 0.2s;
+}

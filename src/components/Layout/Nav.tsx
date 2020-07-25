@@ -2,32 +2,34 @@ import * as React from 'react';
 
 export const Nav: React.FunctionComponent = () => {
   return (
-    <nav className=" center flex items-center mb5 mb4-l">
-      <ul className="list pl0 flex mv0">
+    <nav className="ba bw15  pb1 center flex items-center mb5 mb4-l">
+      <ul className="list ph3 flex mv0">
         <li className=" mr2 pt4 mr4-ns">
           <a
             href="/about"
-            className={` fw6 black link no-underline pb2 underline-hover `}
+            className={` fw4 v-mid black link no-underline pb2  `}
           >
             About
           </a>
         </li>
         <li className="mr2 pt4 mr4-ns">
           <a
-            href="/about"
-            className={`fw6 black link no-underline pb2 underline-hover `}
+            href="/product"
+            className={`fw4 v-mid  black link no-underline pb2  `}
           >
             Shop
           </a>
         </li>
-        <img
-          className="w-20 db center pt0-ns pt2"
-          src="/static/highspeedlogo.png"
-        />
+        <a className="pt2 " href="/">
+          <img
+            className="w-20 db center pt0-ns pt2"
+            src="/static/highspeedlogo.png"
+          />
+        </a>
         <li className="mr2 pt4 mr4-ns">
           <a
             href="/about"
-            className={`fw6 black link no-underline pb2 underline-hover `}
+            className={`fw4 black v-mid  link no-underline pb2  `}
           >
             FAQ
           </a>
@@ -35,7 +37,7 @@ export const Nav: React.FunctionComponent = () => {
         <li className="mr2 pt4 mr4-ns">
           <a
             href="/about"
-            className={`fw6 black link no-underline pb2 underline-hover `}
+            className={`fw4 black v-mid link no-underline pb2  `}
           >
             Contact
           </a>
