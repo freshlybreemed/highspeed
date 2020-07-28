@@ -5,7 +5,7 @@ import { Layout } from '../src/components/Layout/';
 
 const Page: NextPage = () => (
   <Layout>
-    <div className="">
+    <div className="mt5-ns mt4">
       {/* <video
         style={{
           objectFit: 'cover',
@@ -53,7 +53,6 @@ const Page: NextPage = () => (
       */}
     </div>
     <div>
-      {/* <h1 className="tc">Wellness, Delivered</h1> */}
       <img
         className="w-100 db center"
         src="https://tryhighspeed.com/wp-content/uploads/2019/05/tabletophighspeed.jpg"
