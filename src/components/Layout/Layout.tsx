@@ -22,11 +22,7 @@ export const Layout: React.FunctionComponent<LayoutProps> = ({
   children,
   data,
 }) => (
-  <div
-    className={`black ${classnames({
-      ' pb4-ns pb3': !noPadding,
-    })} relative`}
-  >
+  <div className={`black relative`}>
     {/*language=PostCSS*/}
     <Head>
       <meta
