@@ -2,7 +2,10 @@ import * as React from 'react';
 
 export const Nav: React.FunctionComponent = () => {
   return (
-    <nav className="ba bw15  pb1 center flex items-center">
+    <nav
+      style={{ top: 0, zIndex: 1 }}
+      className="ba bg-white bw15  pb1 center flex items-center fixed w-100 mb4"
+    >
       <div className="list dtc w-100 v-mid ph3 tl mv0">
         <a
           href="/about"
