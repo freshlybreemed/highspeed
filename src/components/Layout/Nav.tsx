@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export const Nav: React.FunctionComponent = () => {
   return (
-    <nav className="ba bw15  pb1 center flex items-center mb5 mb4-l">
+    <nav className="ba bw15  pb1 center flex items-center">
       <div className="list dtc w-100 v-mid ph3 tl mv0">
         <a
           href="/about"
